@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!-- bootstrap -->
+
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+               
+       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+        
+       <!-- bootstrap -->
+      <title>Contact Us</title>
+       <!-- CSS FILES -->
+       <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;700&display=swap" rel="stylesheet">
+
+       <link href="css/bootstrap-icons.css" rel="stylesheet">
+   
+       <link href="css/alpine.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="Home.html">
+                Alpine Ascents
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="Home.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="About.html">About</a>
+                    </li>
+
+                    
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="packages.html">Packages</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+        <section class="hero-section" id="section_1">
+            <div class="section-overlay"></div>
+
+            <div class="container d-flex justify-content-center align-items-center">
+                <div class="row">
+
+                    <div class="col-12 mt-auto mb-5 text-center">
+                        <small>Alpine Ascents Presents</small>
+
+                        <h1 class="text-white mb-5"> Ready To Climb</h1>
+
+                    </div>
+
+                    
+                </div>
+            </div>
+
+            <div class="video-wrap">
+                <video autoplay="" loop="" muted="" class="custom-video" poster="">
+                    <source src="video/bgvid.mp4" type="video/mp4">
+
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+
+      
+        <section class="contact-section section-padding" id="section_6">
+            <div class="container">
+                <div class="row">
+        
+                    <div class="col-lg-8 col-12 mx-auto">
+                        <h2 class="text-center mb-4">Have Any Doubt/Query, Let's talk</h2>
+        
+                        <nav class="d-flex justify-content-center">
+                            <div class="nav nav-tabs align-items-baseline justify-content-center" id="nav-tab"
+                                role="tablist">
+                                <button class="nav-link active" id="nav-ContactForm-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-ContactForm" type="button" role="tab"
+                                    aria-controls="nav-ContactForm" aria-selected="false">
+                                    <h5>Contact Form</h5>
+                                </button>
+                            </div>
+                        </nav>
+        
+                        <div class="tab-content shadow-lg mt-5" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-ContactForm" role="tabpanel"
+                                aria-labelledby="nav-ContactForm-tab">
+                                <form id="contactForm" class="custom-form contact-form mb-5 mb-lg-0" action="#" method="post"
+                                    role="form">
+                                    <div class="contact-form-body">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-12">
+                                                <input type="text" name="contact-name" id="contact-name"
+                                                    class="form-control" placeholder="Full name" required>
+                                            </div>
+        
+                                            <div class="col-lg-6 col-md-6 col-12">
+                                                <input type="email" name="contact-email" id="contact-email"
+                                                    pattern="[^ @]*@[^ @]*" class="form-control"
+                                                    placeholder="Email address" required>
+                                            </div>
+                                        </div>
+        
+                                        <input type="text" name="contact-company" id="contact-company"
+                                            class="form-control" placeholder="Company" required>
+        
+                                        <textarea name="contact-message" rows="3" class="form-control"
+                                            id="contact-message" placeholder="Message"></textarea>
+        
+                                        <div class="col-lg-4 col-md-10 col-8 mx-auto">
+                                            <button type="submit" class="form-control">Send message</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+        
+        <script>
+            document.getElementById('contactForm').addEventListener('submit', function(event) {
+                event.preventDefault(); 
+                alert('Alpine Ascents have gotten your message');
+                this.reset(); 
+            });
+
+        </script>
+        
+
+        <!-- footer -->
+        <footer class="site-footer">
+            <div class="site-footer-top">
+                <div class="container">
+                    <div class="row">
+    
+                        <div class="col-lg-6 col-12">
+                            <h2 class="text-white mb-lg-0">Alpine Ascents</h2>
+                        </div>
+    
+                        <div class="col-lg-6 col-12 d-flex justify-content-lg-end align-items-center">
+                            <ul class="social-icon d-flex justify-content-lg-end">
+                                <li class="social-icon-item">
+                                    <a href="https://twitter.com/login" class="social-icon-link">
+                                        <span class="bi-twitter"></span>
+                                    </a>
+                                </li>
+    
+                                <li class="social-icon-item">
+                                    <a href="https://www.facebook.com/login.php/" class="social-icon-link">
+                                        <span class="bi-facebook"></span>
+                                    </a>
+                                </li>
+
+                              
+    
+                                <li class="social-icon-item">
+                                    <a href="https://www.instagram.com/" class="social-icon-link">
+                                        <span class="bi-instagram"></span>
+                                    </a>
+                                </li>
+    
+                                <li class="social-icon-item">
+                                    <a href="https://www.youtube.com/" class="social-icon-link">
+                                        <span class="bi-youtube"></span>
+                                    </a>
+                                </li>
+    
+                                <li class="social-icon-item">
+                                    <a href="https://www.pinterest.com/" class="social-icon-link">
+                                        <span class="bi-pinterest"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="container">
+                <div class="row">
+    
+                    <div class="col-lg-6 col-12 mb-4 pb-2">
+                        <h5 class="site-footer-title mb-3">Links</h5>
+    
+                        <ul class="site-footer-links">
+                            <li class="site-footer-link-item">
+                                <a href="Home.html" class="site-footer-link">Home</a>
+                            </li>
+    
+                            <li class="site-footer-link-item">
+                                <a href="About.html" class="site-footer-link">About</a>
+                            </li>
+    
+                           
+    
+                            <li class="site-footer-link-item">
+                                <a href="packages.html" class="site-footer-link">Packages</a>
+                            </li>
+    
+                            <li class="site-footer-link-item">
+                                <a href="contact.html" class="site-footer-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                        <h5 class="site-footer-title mb-3">Have a question?</h5>
+    
+                        <p class="text-white d-flex mb-1">
+                            <a href="tel: 090-080-0760" class="site-footer-link">
+                                090-080-0760
+                            </a>
+                        </p>
+    
+                        <p class="text-white d-flex">
+                            <a href="mailto:aptechnorthgmail.com" class="site-footer-link">
+                                aptechnorthgmail.com
+                            </a>
+                        </p>
+                    </div>
+    
+                    <div class="col-lg-3 col-md-6 col-11 mb-4 mb-lg-0 mb-md-0">
+                        <h5 class="site-footer-title mb-3">Location</h5>
+    
+                        <p class="text-white d-flex mt-3 mb-2">
+                            SD-1, Block A North Nazimabad Town, Karachi, 74700</p>
+    
+                        <a class="link-fx-1 color-contrast-higher mt-3" href="About.html">
+                            <span>Our Maps</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- footer -->
+
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+
+</body>
+</html>
